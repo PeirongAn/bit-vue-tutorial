@@ -41,7 +41,7 @@ jobs:
           bit import bit.envs/compilers/vue --compiler
       - name: bit build
         run: |
-          bit build
+          bit import && bit build
       - name: bit export
         run: |
           bit status
